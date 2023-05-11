@@ -984,6 +984,13 @@ ul {
         display: none;
     }
 }
+@media(max-width:919px) {
+    .our-skill .skills{
+        background-color: #ebebebb8;
+        padding: 20px;
+        border-radius: 15px;
+    }
+}
 
 .our-skill .skills {
     flex: 1;
@@ -1006,7 +1013,7 @@ ul {
 
 .our-skill .skill .the-progress {
     height: 30px;
-    background-color: #e9e4e4;
+    background-color: #d7d5d5b0;
     position: relative;
 }
 
@@ -1094,6 +1101,10 @@ ul {
 .work-steps .info .boxs img {
     width: 64px;
     margin-right: 30px;
+}
+@media(max-width:991px){
+    .work-steps .info .boxs .text{
+text-align: center;    }
 }
 
 .work-steps .info .boxs h3 {
